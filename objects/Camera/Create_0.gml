@@ -33,6 +33,6 @@ zfar = 32000;
 
 vb_merry = load_model("merry.d3d");
 data_merry = buffer_create_from_vertex_buffer(vb_merry, buffer_fixed, 1);
-vertex_freeze(vb_merry);
+//vertex_freeze(vb_merry);
 
 tilemap_vb = tilemap_to_vertex_buffer("GroundTiles", vertex_format);
